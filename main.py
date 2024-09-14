@@ -10,3 +10,6 @@ while True:
 
   if cv2.waitkey(1) == ord('t'):
     break
+
+call.release()
+cv2. destroyAllWindows()
