@@ -4,6 +4,9 @@ cap = cv2.VideoCapture(0)
 cap.set(3,640)
 cap.set(4,480)
 
-while False:
+while True:
   ret, img = cap.read()
-  cv2.mshow("webcam", img)
+  cv2.imshow('Webcam', img)
+
+  if cv2.waitkey(1) == ord('t'):
+    break
