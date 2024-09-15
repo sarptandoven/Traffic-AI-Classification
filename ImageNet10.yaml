@@ -1,0 +1,20 @@
+path: ../datasets/imagenet10 # dataset root dir
+train: train # train images (relative to 'path') 1281167 images
+val: val # val images (relative to 'path') 50000 images
+test: # test images (optional)
+
+# Classes
+names:
+  0: tench
+  1: goldfish
+  2: great white shark
+  3: tiger shark
+  4: hammerhead shark
+  5: electric ray
+  6: stingray
+  7: cock
+  8: hen
+  9: ostrich
+
+# Download script/URL (optional)
+download: data/scripts/get_imagenet10.sh
