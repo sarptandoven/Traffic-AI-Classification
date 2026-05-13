@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+.env
+.env.*
+
+# Training/inference outputs
+runs/
+weights/
+*.onnx
+*.engine
+*.tflite
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/

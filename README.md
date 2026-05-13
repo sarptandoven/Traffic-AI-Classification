@@ -1,3 +1,20 @@
+# Traffic AI Classification
+
+Traffic object detection experiment built on Ultralytics YOLOv5. This snapshot includes YOLOv5 source files, sample images, a notebook, an Arduino serial bridge (`import serial.py`), and a checked-in `yolov5s.pt` model weight for local inference.
+
+## Quick start
+
+```bash
+python -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python detect.py --weights yolov5s.pt --source bus.jpg
+```
+
+For fresh YOLOv5 documentation, see the upstream README below.
+
+---
+
 <div align="center">
   <p>
     <a href="https://ultralytics.com/events/yolovision" target="_blank">
